@@ -1,0 +1,8 @@
+.friends-list{
+    width: 25%;
+    background: red;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+}
