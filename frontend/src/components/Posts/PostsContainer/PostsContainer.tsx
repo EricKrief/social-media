@@ -5,7 +5,7 @@ import { CreatePost } from "../CreatePost/CreatePost";
 export const PostsContainer = () => {
   return (
     <div className="posts-container">
-      <CreatePost name="Eric" />
+      <CreatePost />
       <Post />
     </div>
   );

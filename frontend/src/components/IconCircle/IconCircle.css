@@ -1,0 +1,14 @@
+.icon-circle{
+    background: #E4E6EB;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-circle:hover{
+    background-color: #D3D5DA;
+}

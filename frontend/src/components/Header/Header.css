@@ -7,3 +7,12 @@
     z-index: 1;
     top: 0;
 }
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 100%;
+    margin-left: 16px;
+}

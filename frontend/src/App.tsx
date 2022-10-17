@@ -1,13 +1,14 @@
 import './App.css';
 import { Header } from './components/Header/Header';
 import { Layout } from './components/Layout/Layout';
+import { UserContextProvider } from './store/user-context';
 
 function App() {
   return (
-    <div className="App">
+    <UserContextProvider className="App">
       <Header />
       <Layout />
-    </div>
+    </UserContextProvider>
   );
 }
 
